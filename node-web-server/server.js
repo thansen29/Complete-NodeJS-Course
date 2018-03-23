@@ -53,7 +53,7 @@ app.get('/bad', (req, res) => {
   });
 });
 
-const port = process.env.port || 3030;
+const port = process.env.PORT || 3030;
 
 app.listen(port, () => {
   console.log('Server is running on port', port);
